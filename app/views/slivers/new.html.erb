@@ -1,0 +1,17 @@
+ <div style="color:white"><%= error_messages_for 'sliver' %></div>
+<div style="margin-top:200px">
+
+  <% form_for(@sliver) do |f| %>
+
+      <table>
+      <tr><td style="color:white">Sliver Title:<br></td><td><%= f.text_field :title %></td></tr>
+      <tr><td style="text-align:right;color:white">Url:</td><td><%= f.text_field :long_url %></td></tr>
+      </table>
+    <p>
+      <%= f.submit 'Create Sliver!' %>
+    </p>
+  <% end %>
+
+
+
+</div>

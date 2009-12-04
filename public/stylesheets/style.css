@@ -1,0 +1,47 @@
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+}
+
+a {
+color:white;
+}
+
+a:visited{
+    color:white
+}
+
+#content {
+
+background-color:black;
+color:white;
+
+}
+
+#logo {
+    margin-top:200px;
+    margin-bottom:-200px;
+}
+
+#message {
+    margin-top:205px;
+    margin-bottom:-190px;
+    color:white;
+    
+}
+
+#about_us{
+
+    margin-top:0px;
+    float:left;
+}
+
+#credits {
+ }
+
+ul.NoBullet {
+    list-style-type:none;
+}

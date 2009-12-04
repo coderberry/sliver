@@ -1,0 +1,6 @@
+development:
+  adapter: mysql
+  database: sliver_production
+  username: root
+  password:
+  host: localhost

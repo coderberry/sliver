@@ -1,0 +1,28 @@
+
+<% @link_url = "#{@sliver.long_url}" %>
+
+<script type="text/javascript">
+
+window.onload = function(){
+
+    // open a welcome message as soon as the window loads
+    Shadowbox.open({
+        content:    "<%= @link_url%>",
+        player:     "iframe",
+        title:      "Sliver: <%=@sliver.title%>",
+    });
+
+};
+</script>
+
+
+
+
+<div style="margin-top:200px">
+  <h1>Thanks for Using Sliver!</h1>
+
+  <p>Your Sliver Link: <a href='<%=@sliver.long_url%>' rel="shadowbox" title='<%=@sliver.title%>'>http://<%=request.domain+'/'+@sliver.mini_key%></a> </p>
+</div>
+
+
+
