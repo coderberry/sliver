@@ -40,7 +40,7 @@ set(:database_username, "root")
 # set(:database_password, "root")
 set(:development_database) { "sliver_development" }
 set(:test_database) { "sliver_test" }
-set(:production_database) { "silhouette_production" }
+set(:production_database) { "sliver_production" }
 
 namespace :db do
   desc "Create database yaml in shared path"
@@ -77,6 +77,12 @@ production:
   task :symlink do
     run "ln -nfs #{shared_path}/config/database.yml #{latest_release}/config/database.yml"
   end
+
+
+  deploy.task :restart, :roles => :app do
+  run "touch #{current_path}/tmp/restart.txt"
+end
+
 end
 
 

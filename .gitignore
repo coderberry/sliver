@@ -1,0 +1,5 @@
+.DS_STore
+log/*.log
+tmp/**/*
+config/database.yml
+
