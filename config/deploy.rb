@@ -1,7 +1,7 @@
 # ======= Initial Config =============================
 
 set :application, 'sliver.me'
-set :use_sudo, false
+set :use_sudo, true
 set :user, 'internetchris'
 set :port, 31979
 set :domain, '174.143.148.37'
@@ -82,6 +82,8 @@ production:
   deploy.task :restart, :roles => :app do
   run "touch #{current_path}/tmp/restart.txt"
 end
+
+
 
 end
 
