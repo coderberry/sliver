@@ -40,4 +40,4 @@ Rails::Initializer.run do |config|
   # config.i18n.default_locale = :de
 end
 
-require 'lib/validates_uri_existence_of'
+#require 'lib/validates_uri_existence_of'
