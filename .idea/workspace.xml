@@ -54,7 +54,7 @@
       <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10310966">
+            <state line="46" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="1.5810148">
               <folding />
             </state>
           </provider>
@@ -63,7 +63,7 @@
       <file leaf-file-name="sliver.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="215" selection-end="215" vertical-scroll-proportion="-3.2307692">
+            <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.6153846">
               <folding />
             </state>
           </provider>
@@ -122,7 +122,6 @@
         <option value="$PROJECT_DIR$/app/views/biz/credits.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/slivers/new.html.erb" />
@@ -130,6 +129,7 @@
         <option value="$PROJECT_DIR$/app/controllers/slivers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/slivers/shadow_display.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/models/sliver.rb" />
       </list>
     </option>
@@ -704,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="215" selection-end="215" vertical-scroll-proportion="-3.2307692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="64" selection-start="377" selection-end="377" vertical-scroll-proportion="-13.5">
@@ -725,9 +718,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="192" selection-end="192" vertical-scroll-proportion="0.10310966">
+        <state line="46" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="1.5810148">
           <folding />
         </state>
       </provider>
