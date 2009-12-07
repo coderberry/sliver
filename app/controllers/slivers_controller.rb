@@ -1,5 +1,7 @@
 class SliversController < ApplicationController
 
+  
+
   def new
     @sliver = Sliver.new
   end
@@ -83,13 +85,13 @@ end
 
   
 
-        flash[:notice] = 'You Sliver was created successfully!'
+        flash[:notice] = 'Your Sliver was created successfully!'
 
         redirect_to :controller => 'slivers' , :action => 'show', :sliver => @mcreate.mini_key
 
       else
 
-        flash[:warning] = "What the heck! For some reason your sliver didn't create. The url must be valid and contain http://."
+        flash[:warning] = "Darnit! For some reason your sliver didn't create. The url must be valid and contain http://."
          redirect_to :controller => 'slivers' , :action => 'new'
       end
 end
@@ -99,7 +101,29 @@ def show
 end
 
 def shadow_display
+
   @sliver = Sliver.find_by_mini_key(params[:sliver])
+
+  @today = Date.today
+  @tweaze_on = @sliver.tweaze_date
+
+  
+
+
+  @link_type = case @sliver.link_type
+    when "Image" then
+    "img"
+    when "Web Page" then
+    "iframe"
+    when "Video" then
+    "iframe"
+  end
+
+
+@link_url = @sliver.long_url
+
+  
+
 end
 
 

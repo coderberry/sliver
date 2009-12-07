@@ -8,6 +8,7 @@ body {
 
 a {
 color:white;
+
 }
 
 a:visited{
@@ -24,6 +25,7 @@ color:white;
 #logo {
     margin-top:200px;
     margin-bottom:-200px;
+    border:0;
 }
 
 #message {
@@ -44,4 +46,8 @@ color:white;
 
 ul.NoBullet {
     list-style-type:none;
+}
+
+img {
+    border: 0;
 }

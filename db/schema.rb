@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091204165623) do
+ActiveRecord::Schema.define(:version => 20091206203110) do
 
   create_table "iterations", :force => true do |t|
     t.integer  "a"
@@ -27,6 +27,8 @@ ActiveRecord::Schema.define(:version => 20091204165623) do
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.date     "tweaze_date"
+    t.string   "link_type"
   end
 
 end

@@ -1,15 +1,16 @@
 
-<% @link_url = "#{@sliver.long_url}" %>
+<% if @tweaze_on > @today %>
 
+ 
 <script type="text/javascript">
 
 window.onload = function(){
 
-    // open a welcome message as soon as the window loads
+    // open a file when window loads
     Shadowbox.open({
         content:    "<%= @link_url%>",
-        player:     "iframe",
-        title:      "Sliver: <%=@sliver.title%>",
+        player:     "<%=@link_type%>",
+        title:      "Sliver: <%=@sliver.title%>"
     });
 
 };
@@ -20,9 +21,16 @@ window.onload = function(){
 
 <div style="margin-top:200px">
   <h1>Thanks for Using Sliver!</h1>
+<a style="font-size:24px;" href='<%=@sliver.long_url%>' rel="shadowbox" title='<%=@sliver.title%>'>http://<%=request.domain+'/'+@sliver.mini_key%></a> </p>
+<%else%>
 
-  <p>Your Sliver Link: <a href='<%=@sliver.long_url%>' rel="shadowbox" title='<%=@sliver.title%>'>http://<%=request.domain+'/'+@sliver.mini_key%></a> </p>
-</div>
+       <p style="font-size:24px;"> I'm sorry, it seems your sliver has expired</p>
+    Tweazed on: <%=@sliver.tweaze_date%>
+ <%end%>
+
+ 
+ </div>
 
 
 
+<%=@tweaze%>
