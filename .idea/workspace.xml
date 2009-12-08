@@ -24,10 +24,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shadow_display.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shadow_display.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/slivers/shadow_display.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="0.8148148">
+            <state line="22" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="-9.058824">
               <folding />
             </state>
           </provider>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validates_uri_existence_of.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="validates_uri_existence_of.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="68" selection-start="39" selection-end="88" vertical-scroll-proportion="-1.6153846">
+            <state line="6" column="6" selection-start="230" selection-end="230" vertical-scroll-proportion="0.21283785">
               <folding />
             </state>
           </provider>
@@ -124,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/validates_uri_existence_of.rb" />
         <option value="$PROJECT_DIR$/app/views/slivers/credits.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/biz_controller.rb" />
@@ -140,6 +139,7 @@
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/slivers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/slivers/shadow_display.html.erb" />
+        <option value="$PROJECT_DIR$/lib/validates_uri_existence_of.rb" />
       </list>
     </option>
   </component>
@@ -642,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="68" selection-start="39" selection-end="88" vertical-scroll-proportion="-1.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.6153846">
@@ -679,7 +672,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/slivers/shadow_display.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="0.8148148">
+        <state line="22" column="16" selection-start="352" selection-end="352" vertical-scroll-proportion="-9.058824">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="6" selection-start="230" selection-end="230" vertical-scroll-proportion="0.21283785">
           <folding />
         </state>
       </provider>
