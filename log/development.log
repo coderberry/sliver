@@ -9829,3 +9829,70 @@ Processing SliversController#show (for 127.0.0.1 at 2009-12-07 21:09:12) [GET]
 Rendering template within layouts/application
 Rendering slivers/show
 Completed in 21ms (View: 9, DB: 7) | 200 OK [http://localhost/slivers/oooB]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SliversController#new (for 127.0.0.1 at 2009-12-07 21:22:08) [GET]
+  [4;35;1mSliver Columns (38.4ms)[0m   [0mSHOW FIELDS FROM `slivers`[0m
+Rendering template within layouts/application
+Rendering slivers/new
+Completed in 396ms (View: 339, DB: 39) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SliversController#create (for 127.0.0.1 at 2009-12-07 21:22:11) [POST]
+  Parameters: {"sliver"=>{"link_type"=>"Web Page", "long_url"=>"", "title"=>"", "tweaze_date(1i)"=>"2009", "tweaze_date(2i)"=>"12", "tweaze_date(3i)"=>"8"}, "commit"=>"Create Sliver!", "authenticity_token"=>"uwMUhoYzq564NVvomjWmSdELGBECSo/hKnjeXXYh2Jk="}
+  [4;35;1mSliver Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `slivers`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/slivers]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SliversController#new (for 127.0.0.1 at 2009-12-07 21:22:11) [GET]
+  [4;35;1mSliver Columns (22.7ms)[0m   [0mSHOW FIELDS FROM `slivers`[0m
+Rendering template within layouts/application
+Rendering slivers/new
+Completed in 40ms (View: 13, DB: 23) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SliversController#create (for 127.0.0.1 at 2009-12-07 21:22:23) [POST]
+  Parameters: {"sliver"=>{"link_type"=>"Web Page", "long_url"=>"http://www.google.com", "title"=>"http://www.silhouettesolutions.net", "tweaze_date(1i)"=>"2009", "tweaze_date(2i)"=>"12", "tweaze_date(3i)"=>"8"}, "commit"=>"Create Sliver!", "authenticity_token"=>"uwMUhoYzq564NVvomjWmSdELGBECSo/hKnjeXXYh2Jk="}
+  [4;35;1mSliver Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `slivers`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSliver Create (0.2ms)[0m   [0mINSERT INTO `slivers` (`link_type`, `long_url`, `mini_key`, `created_at`, `title`, `updated_at`, `tweaze_date`, `email`) VALUES('Web Page', 'http://www.google.com', NULL, '2009-12-08 04:22:23', 'http://www.silhouettesolutions.net', '2009-12-08 04:22:23', '2009-12-08', NULL)[0m
+  [4;36;1mSQL (78.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mIteration Load (0.2ms)[0m   [0mSELECT * FROM `iterations` LIMIT 1[0m
+  [4;36;1mIteration Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `iterations`[0m
+  [4;35;1mSliver Load (1.0ms)[0m   [0mSELECT * FROM `slivers` WHERE (`slivers`.`id` = 35) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSliver Update (0.2ms)[0m   [0mUPDATE `slivers` SET `updated_at` = '2009-12-08 04:22:23', `mini_key` = 'oooS' WHERE `id` = 35[0m
+  [4;36;1mSQL (14.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mIteration Load (0.2ms)[0m   [0mSELECT * FROM `iterations` WHERE (`iterations`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mIteration Update (0.2ms)[0m   [0mUPDATE `iterations` SET `updated_at` = '2009-12-08 04:22:23', `d` = 35 WHERE `id` = 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/slivers/oooS
+Completed in 117ms (DB: 99) | 302 Found [http://localhost/slivers]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SliversController#show (for 127.0.0.1 at 2009-12-07 21:22:23) [GET]
+  Parameters: {"id"=>"oooS"}
+  [4;36;1mSliver Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `slivers`[0m
+  [4;35;1mSliver Load (0.4ms)[0m   [0mSELECT * FROM `slivers` WHERE (`slivers`.`mini_key` = 'oooS') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering slivers/show
+Completed in 42ms (View: 10, DB: 2) | 200 OK [http://localhost/slivers/oooS]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing SliversController#shadow_display (for 127.0.0.1 at 2009-12-07 21:22:25) [GET]
+  Parameters: {"sliver"=>"oooS"}
+  [4;35;1mSliver Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `slivers`[0m
+  [4;36;1mSliver Load (47.0ms)[0m   [0;1mSELECT * FROM `slivers` WHERE (`slivers`.`mini_key` = 'oooS') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering slivers/shadow_display
+Completed in 64ms (View: 7, DB: 49) | 200 OK [http://localhost/oooS]
