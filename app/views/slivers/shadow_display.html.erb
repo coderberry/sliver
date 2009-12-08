@@ -20,11 +20,11 @@ window.onload = function(){
 
 
 <div style="margin-top:200px">
-  <h1>Thanks for Using Sliver!</h1>
-<a style="font-size:24px;" href='<%=@sliver.long_url%>' rel="shadowbox" title='<%=@sliver.title%>'>http://<%=request.domain+'/'+@sliver.mini_key%></a> </p>
+  <h1>Thanks For Using Sliver!</h1>
+<a id="link" href='<%=@sliver.long_url%>' rel="shadowbox" title='<%=@sliver.title%>'>http://<%=request.domain+'/'+@sliver.mini_key%></a> </p>
 <%else%>
 
-       <p style="font-size:24px;"> I'm sorry, it seems your sliver has expired</p>
+       <p style="font-size:24px;"> I'm sorry, it seems your Sliver has expired</p>
     Tweazed on: <%=@sliver.tweaze_date%>
  <%end%>
 
