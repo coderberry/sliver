@@ -36,7 +36,7 @@
       <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="35" selection-start="2049" selection-end="2049" vertical-scroll-proportion="-37.153847">
+            <state line="46" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-37.153847">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sliver.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sliver.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.6153846">
+            <state line="7" column="18" selection-start="204" selection-end="204" vertical-scroll-proportion="0.2483108">
               <folding />
             </state>
           </provider>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validates_uri_existence_of.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="validates_uri_existence_of.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="230" selection-end="230" vertical-scroll-proportion="0.21283785">
+            <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -132,14 +132,14 @@
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/views/slivers/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/slivers_controller.rb" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/sliver.rb" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/app/views/slivers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/slivers/shadow_display.html.erb" />
         <option value="$PROJECT_DIR$/lib/validates_uri_existence_of.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/app/models/sliver.rb" />
       </list>
     </option>
   </component>
@@ -357,6 +357,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -628,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="35" selection-start="2049" selection-end="2049" vertical-scroll-proportion="-37.153847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="24" selection-start="2133" selection-end="2133" vertical-scroll-proportion="-31.294117">
@@ -645,13 +642,6 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="18" selection-start="48" selection-end="48" vertical-scroll-proportion="-1.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.6153846">
           <folding />
         </state>
       </provider>
@@ -677,9 +667,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-37.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="230" selection-end="230" vertical-scroll-proportion="0.21283785">
+        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="204" selection-end="204" vertical-scroll-proportion="0.2483108">
           <folding />
         </state>
       </provider>
