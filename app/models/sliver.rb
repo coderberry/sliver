@@ -7,7 +7,7 @@ validates_uri_existence_of :long_url, :with =>
 
 require 'net/http'  
 
-   def validates_uri_existence_of(*attr_names)
+   def self.validates_uri_existence_of(*attr_names)
     configuration = { :message => "is not valid or not responding", :on => :save, :with => nil }
     configuration.update(attr_names.pop) if attr_names.last.is_a?(Hash)
 
