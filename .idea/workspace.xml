@@ -33,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="environment.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-37.153847">
+            <state line="46" column="1" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.9290541">
               <folding />
             </state>
           </provider>
@@ -60,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sliver.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sliver.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="185" selection-end="185" vertical-scroll-proportion="0.21283785">
+            <state line="3" column="8" selection-start="91" selection-end="91" vertical-scroll-proportion="-2.4230769">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,7 @@
       <file leaf-file-name="validates_uri_existence_of.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="-0.0">
+            <state line="4" column="30" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.2307692">
               <folding />
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/app/views/slivers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/slivers/shadow_display.html.erb" />
         <option value="$PROJECT_DIR$/lib/validates_uri_existence_of.rb" />
-        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/app/models/sliver.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
       </list>
     </option>
   </component>
@@ -667,23 +667,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="2014" selection-end="2014" vertical-scroll-proportion="-37.153847">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/validates_uri_existence_of.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="18" vertical-scroll-proportion="-0.0">
+        <state line="4" column="30" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.2307692">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/sliver.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="185" selection-end="185" vertical-scroll-proportion="0.21283785">
+        <state line="3" column="8" selection-start="91" selection-end="91" vertical-scroll-proportion="-2.4230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="1" selection-start="2015" selection-end="2015" vertical-scroll-proportion="0.9290541">
           <folding />
         </state>
       </provider>

@@ -1,33 +1,6 @@
 class Sliver < ActiveRecord::Base
 
-validates_uri_existence_of :long_url, :with =>
-        /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$)/ix
-
-
-
-require 'net/http'  
-
-   def self.validates_uri_existence_of(*attr_names)
-    configuration = { :message => "is not valid or not responding", :on => :save, :with => nil }
-    configuration.update(attr_names.pop) if attr_names.last.is_a?(Hash)
-
-    raise(ArgumentError, "A regular expression must be supplied as the :with option of the configuration hash") unless configuration[:with].is_a?(Regexp)
-
-    validates_each(attr_names, configuration) do |r, a, v|
-        if v.to_s =~ configuration[:with] # check RegExp
-              begin # check header response
-                  case Net::HTTP.get_response(URI.parse(v))
-                    when Net::HTTPSuccess then true
-                    else r.errors.add(a, configuration[:message]) and false
-                  end
-              rescue # Recover on DNS failures..
-                  r.errors.add(a, configuration[:message]) and false
-              end
-        else
-          r.errors.add(a, configuration[:message]) and false
-        end
-    end
-  end
-
+#validates_uri_existence_of :long_url, :with =>
+       # /(^$)|(^(http|https):\/\/[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?$)/ix
 
 end
